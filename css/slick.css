@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {
+    position: relative;
+    z-index: 1;
+
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+/* サムネイルのスタイル */
+.thumbnail .swiper-slide {
+  opacity: 0.5;
+}
+
+/* サムネイルのアクティブスタイル */
+.thumbnail .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.slider-item {
+    width: 1920px;
+    /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+    height: 535px;
+    /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    background-repeat: no-repeat;
+    /*背景画像をリピートしない*/
+    background-position: center;
+    /*背景画像の位置を中央に*/
+    background-size: cover;
+    /*背景画像が.slider-item全体を覆い表示*/
+}
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 6vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+}
+
+.container {
+    background: #555;
+}
+
+.container p {
+    padding: 300px 0;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (min-width: 750px) {
+    /*　背景画像設定　*/
+
+    .slider-item01 {
+        background-image: url(../images/top01.png);
+    }
+
+    .slider-item02 {
+        background-image: url(../images/top02.png);
+    }
+
+    .slider-item03 {
+        background-image: url(../images/top03.png);
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .slider-item {
+        height: 63vh;
+
+        background-size: 100%;
+    }
+
+    /*　背景画像設定　*/
+
+    .slider-item01 {
+        background-image: url(../images/top01s.png);
+    }
+
+    .slider-item02 {
+        background-image: url(../images/top02s.png);
+    }
+
+    .slider-item03 {
+        background-image: url(../images/top03s.png);
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .slider-item {
+        height: 49vh;
+
+    }
+
+}

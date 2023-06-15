@@ -70,7 +70,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
 
     .wrapper_02 p {
         font-size: 36px;
-        color: #4c4a4a;
+        color: #060404;
         /* top: 100px; */
         /* left: 200px; */
         width: 1100px;
@@ -168,7 +168,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         margin: 0 auto;
     }
 
-    .info h3,s
+    .info h3,
     .infotel h3,
     .infopdf h3 {
         font-size: 30px;
@@ -180,7 +180,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
 
     .info .telbox {
         width: 750px;
-        border: 1px solid #b2b2b2;
+        border: 1px solid #f8eacc;
         margin: 30px auto 0;
         padding: 20px;
         display: table;
@@ -193,7 +193,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     .infotel {
-        background: #e0dcdc;
+        background: #f8eacc;
         padding: 60px 0;
         margin-top: 50px;
         text-align: center;
@@ -223,7 +223,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     .koukokuwrap .koukokutext {
         position: absolute;
         font-size: 20px;
-        background:#514699;
+        background: #514699;
         color: #fff;
         padding: 20px;
         height: 80px;
@@ -255,7 +255,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     .red {
-        color: #990000;
+        color: #514699;
     }
 
     .telboxtime {
@@ -304,15 +304,16 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         margin: 0 15px;
     }
     
- 
- .example02 .box:after {
+    /* >MORE-----------------------------
+    .example02 .examplechild .box:after {
         position: absolute;
-       /* content: "> 詳しく";--- */
-        color: #fff;
-        bottom: 7px;
-        right: 10px;
+        content: "> More";
+        color: #514699;
+        top: 322px;
+        right: 5px;
     }
-    
+    -- */
+
     .example02 .examplechild .box {
         height: 350px;
         position: relative;
@@ -329,14 +330,15 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     .example .examplechild .midashi {
         position: relative;
     }
-
-   /*  .example .examplechild .midashi::after {
+/* >MORE-----------------------------
+    .example .examplechild .midashi::after {
         position: absolute;
         content: "> More";
-        color: #514699;
+        color: #990000;
         top: 235px;
         right: 0px;
-    }-- */
+    }
+     -- */
 
     .example .examplechild .midashi .read {
         background: #baafab;
@@ -387,7 +389,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         margin-top: 4px;
     }
 
-    /* コース料金
+    /* 会社概要
 ------------------------------- */
     table {
         width: 1100px;
@@ -403,26 +405,26 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     th {
         width: 250px;
         padding: 20px 0 18px;
-        background-color: #e0dcdc;
+        background-color: #ef8eacc;
         font-size: 16px;
         text-align: center;
         vertical-align: middle;
-        border-top: 1px solid #1b1464;
+        border-top: 1px solid #94c4391;
     }
 
     td {
         padding: 20px 20px 18px 40px;
         background-color: #fff;
-        border-top: 1px solid #1b1464;
+        border-top: 1px solid #4c4391;
     }
 
     tr:last-child th {
-        border-bottom: 1px solid #1b1464;
+        border-bottom: 1px solid #4c4391;
 
     }
 
     tr:last-child td {
-        border-bottom: 1px solid #1b1464;
+        border-bottom: 1px solid #4c4391;
 
     }
 
@@ -448,7 +450,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     .map p {
         position: absolute;
         font-size: 20px;
-        background: #514699;
+        background: #51469a;
         color: #fff;
         padding: 20px;
         height: 80px;
@@ -487,7 +489,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     .inquiryinfo a {
-        background: #514699;
+        background: #666666;
         color: #fff;
         font-size: 34px;
         padding: 10px;
@@ -550,7 +552,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
 
     .kyouboumerit .kyouboumeritbtn {
         display: table-cell;
-        background: #514699;
+        background: #51469a;
         padding: 17px;
         height: 63px;
         width: 95px;
@@ -619,7 +621,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         width: 1100px;
         font-size: 14px;
         margin: 50px auto;
-        border-top: 3px solid #514699;
+        border-top: 3px solid #51469a;
     }
 
     footer .list {
@@ -638,11 +640,11 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     footer .detail a {
-        color: #514699;
+        color: #1b1464;
     }
 
     footer p {
-        border-top: 3px solid #514699;
+        border-top: 3px solid #990000;
         text-align: center;
         padding-top: 20px;
         margin-top: 20px;
@@ -853,13 +855,13 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
 
     }
 
-    /* .example .examplechild .midashi::after {
+    .example .examplechild .midashi::after {
         position: absolute;
-        content: "> More";-- 
-        color: #fff;
+        content: "> More";
+        color: #cb152a;
         bottom: 7px;
         right: 10px;
-    }*/
+    }
 
 
     .example .examplechild .midashi .text {
@@ -878,14 +880,17 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         width: 100%;
 
     }
-    
-    /*  .example02 .box:after {
+
+    /*========= >MORE 
+    .example02 .box:after {
         position: absolute;
         content: "> More";
         color: #990000;
         bottom: 7px;
         right: 10px;
-    }-- */
+    }
+    ===============*/
+
 
     .example02 .box img {
         width: 100%;
@@ -909,7 +914,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         margin-top: 4px;
     }
 
-    /* コース料金SP
+    /* 会社概要
 ------------------------------- */
     table {
         margin: 0 auto;
@@ -928,22 +933,29 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
         background-color: #e0dcdc;
         text-align: center;
         vertical-align: middle;
-        border-top: 1px solid #08015b;
+        border-top: 1px solid ＃4c4391;
     }
 
     td {
         padding: 20px 20px 18px 40px;
         background-color: #fff;
-        border-top: 1px solid  #08015b;
+        border-top: 1px solid #514699;
     }
 
+
+
+
+
+
+    
+
     tr:last-child th {
-        border-bottom: 1px solid #08015b;
+        border-bottom: 1px solid #1b1464;
 
     }
 
     tr:last-child td {
-        border-bottom: 1px solid  #08015b;
+        border-bottom: 1px solid #1b1464;
 
     }
 
@@ -981,7 +993,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     .inquiry {
-        background: #f8eacc;
+        background: #e0dcdc;
         text-align: center;
         padding: 30px 0;
         margin-top: 30px;
@@ -1000,7 +1012,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     .inquiryinfo a {
-        background: #514699;
+        background: #666666;
         color: #fff;
         font-size: 18px;
         padding: 10px;
@@ -1041,7 +1053,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
 
     .wrapper_02 p {
         font-size: 18px;
-        color: #000000;
+        color: #3e3d3d;
         position: absolute;
         top: 42%;
         left: 10%;
@@ -1057,7 +1069,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     .infotel h3,
     .infopdf h3 {
         font-size: 22px;
-        background-color: #1b1464;
+        background-color: #514699;
         text-align: center;
         color: #fff;
         margin-top: 30px;
@@ -1222,7 +1234,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
 
     footer {
         color: #fff;
-        background: #514699;
+        background: ＃514699;
     }
 
     footer ul li {
@@ -1262,7 +1274,7 @@ table,.main-nav,.example .examplechild .midashi .read,.example02 .examplechild .
     }
 
     footer .copy {
-        border-top: 2px solid #514699;
+        border-top: 2px solid #990000;
         font-size: 9px;
         text-align: center;
         margin-top: 10px;
